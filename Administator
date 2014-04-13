@@ -11,7 +11,7 @@ class Hi
   int b;
   Hi()
   {
-    super(x);
+    super(10);
     System.out.println("super");
   }
 };
