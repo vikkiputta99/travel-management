@@ -1,7 +1,23 @@
 class Hello
 {
+  int a;
+  Hello(int x)
+  {
+    System.out.println("Default");
+  }
+};
+class Hi
+{
+  int b;
+  Hi()
+  {
+    super(x);
+    System.out.println("super");
+  }
+};
 public static void main(String args[])
 {
+  Hi a=new Hi();
   System.out.println("Hello World");
 }
 };
